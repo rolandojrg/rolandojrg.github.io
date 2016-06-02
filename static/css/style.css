@@ -1,0 +1,181 @@
+/* Reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0} 
+*, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+	background-color: #EDF2F4;
+	font:16px/1 "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	color: #777;
+}
+
+p {
+	line-height:1.8;
+}
+
+strong {
+	font-weight: 700;
+	color: #333;
+}
+
+a {
+	text-decoration: none;
+	color: #5badf0;
+}
+
+header {
+	background-color: #2B2D42;
+	padding: 1rem 0;
+	color: #EDF2F4;
+}
+.title {
+	font-size: 32px;
+	font-weight: 900;
+	color: #EDF2F4;
+	text-transform: uppercase;
+	display: block;
+}
+
+.sub-title {
+	font-size: 14px;
+	font-weight: 300;
+	color: #EDF2F4;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	display: block;
+}
+
+.navigation {
+	margin-top: 8px;
+}
+
+ul.nav-pills > li > a {
+	background-color: #2B2D42;
+	color: #EDF2F4;
+	font-size: 14px;
+	text-transform: uppercase;
+	-webkit-transition: background-color .3s;
+    -moz-transition: background-color .3s;
+    -o-transition: background-color .3s;
+    transition: background-color .3s;
+    margin: auto 3px;
+}
+
+ul.nav-pills > li > a:hover {
+	background-color: #8D99AE;
+}
+
+ul.nav-pills li.active a {
+	background-color: #fff;
+	-webkit-transition: background-color .3s;
+    -moz-transition: background-color .3s;
+    -o-transition: background-color .3s;
+    transition: background-color .3s;
+  font-weight: 700;
+  color: #2B2D42;
+}
+
+ul.nav-pills > li.active > a:hover {
+	color: #2B2D42;
+	background-color: #8D99AE;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin-right: 15px;
+  background-image: url(../images/logo.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-indent: -9999px;
+}
+
+.logo:hover {
+	opacity: 0.5;
+}
+
+.logo { 
+  -webkit-transition: opacity .3s;
+  -moz-transition: opacity .3s;
+  -o-transition: opacity .3s;
+  transition: opacity .3s;
+}
+
+#wrapper {
+	margin: 0 auto;
+	max-width: 560px;
+	padding: 160px 40px;
+}
+
+.sm-nav {
+  margin-top: 0!important;
+  padding-top: 0!important;
+  background-color: #fff;
+  margin-left: -16px;
+  margin-right: -16px;
+}
+
+.sm-nav .col-xs-4 {
+  padding: 0px;
+}
+
+.sm-nav a {
+	background-color: #2B2D42;
+	color: #EDF2F4;
+	padding: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+    -webkit-transition: background-color .3s;
+    -moz-transition: background-color .3s;
+    -o-transition: background-color .3s;
+    transition: background-color .3s;
+	display: block;
+}
+
+.sm-nav .active a  {
+  font-weight: 700;
+  color: #2B2D42;
+  background-color: #EDF2F4;
+}
+
+.sm-nav a:hover {
+  background-color:#8D99A3;
+	text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  header {
+    padding-bottom: 0;
+  }
+  .navigation {
+    margin-top: 0px;
+  }
+  .title, .sub-title {
+    text-align: center;
+  }
+
+  .title {
+    margin-top: 10px;
+    font-size: 26px;
+  }
+
+  .sub-title {
+    letter-spacing: 2.35px;
+    margin-bottom: 30px;
+  }
+
+  .logo {
+    margin-top:-4px;
+  	margin-left: 5px;
+  	margin-right: 0px;
+  }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .logo {
+    background-image: url(../images/logo@2x.png);
+    background-size: 50px 50px;
+  }
+}
