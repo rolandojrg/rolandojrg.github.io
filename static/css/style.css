@@ -368,7 +368,10 @@ ul.nav-pills > li.active > a:hover {
   background: #bc6df1;
 }
 
-
+.control-label {
+  margin-bottom: 10px;
+  font-weight: 700;
+}
 @media (max-width: 768px) {
   header {
     padding-bottom: 0;
