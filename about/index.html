@@ -30,7 +30,7 @@
 			<div class="col-sm-6">
 				<a id="logo" class="logo" href="/"></a>
 				<span class="title">Rolando JR G.</span>
-				<span class="sub-title">Personal Portfolio</span>
+				<span class="sub-title">Professional Portfolio</span>
 			</div>
 			<div class="col-sm-6">
 				<nav class="navigation pull-right hidden-xs">
@@ -52,24 +52,93 @@
 	</div>
 </header>
 
-<section id="wrapper">
-	<p>The <strong>default template</strong> is a barebones starting point for your project. It has all the files you need to set up a website, yet barely any pre-defined styles. If you’d like to start from scratch, this one’s for you.</p> 
+<div class="demo-1">
+	<div class="content">
+		<div id="large-header" class="large-header">
+			<canvas id="demo-canvas"></canvas>
+			<span class="main-title"><img class="2x" src="/static/images/Hello.png"></span>
+		</div>
+	</div>
+</div>
+
+<section id="content">
+	<div class="container-fluid" style="background-color: #CCDBE0; padding-top: 30px; padding-bottom: 20px;">
+		<div class="row">
+			<section id="portrait" class="hidden-xs col-sm-2 col-sm-offset-1">
+				<img class="2x img-responsive" src="/static/images/self.png">
+			</section>
+			<section id="about" class="col-xs-12 col-sm-8">
+				<h1 class="about-heading">Hello! It's me.</h1>
+				<p>My name is Rolando. I'm a freelance graphic designer and web/app developer who completed a degree in Computer Science at the University of Toronto. I'm currently working towards my degree in teaching.</p>
+				<p>As a designer and a developer, I appreciate the best of both worlds. I have a passion for all aspects of art, design, and technology, and I <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> creating beautiful and intuitive user interfaces and experiences.</p>
+			</section>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			<section id="experience" class="col-xs-12">
+				<h1 class="title-heading">Technical Skills</h1>
+			</section>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<section id="skills" class="col-xs-12 col-sm-5 col-sm-offset-1" style="padding-top: 20px;">
+				<h2 class="heading">Web &amp; Graphic</h2>
+				<ul class="chart-labels">
+					<li>Familiar</li>
+					<li>Proficient</li>
+					<li>Advanced</li>
+				</ul>
+				<ul class="bar-chart">
+					<li id="bar-html" class="bar"><span class="full percent">HTML5</span></li>
+					<li id="bar-css" class="bar"><span class="full percent">CSS3, SASS, LESS</span></li>
+					<li id="bar-js" class="bar"><span class="sixty percent">JavaScript &amp; jQuery</span></li>
+					<li id="bar-php" class="bar"><span class="fifty-five percent">PHP</span></li>
+					<li id="bar-ps" class="bar"><span class="ninety percent">Photoshop</span></li>
+					<li id="bar-il" class="bar"><span class="fifty-five percent">Illustrator</span></li>
+					<li id="bar-sk" class="bar"><span class="sixty-five percent">Node.js</span></li>
+					
+				</ul>
+			</section>
+			<section id="skills" class="col-xs-12 col-sm-5" style="padding-top: 20px;">
+				<h2 class="heading">App Development</h2>
+				<ul class="chart-labels">
+					<li>Familiar</li>
+					<li>Proficient</li>
+					<li>Advanced</li>
+				</ul>
+				<ul class="bar-chart">
+					<li id="bar-html" class="bar"><span class="seventy-five percent">Python</span></li>
+					<li id="bar-css" class="bar"><span class="seventy percent">Java</span></li>
+					<li id="bar-js" class="bar"><span class="fifty-five percent">C, C#, C++</span></li>
+					<li id="bar-php" class="bar"><span class="seventy-five percent">ObjectiveC / Swift</span></li>
+					<li id="bar-ps" class="bar"><span class="seventy percent">SQL</span></li>
+					<li id="bar-git" class="bar"><span class="fifty percent">Git / SVN</span></li>
+					<li id="bar-sk" class="bar"><span class="eighty percent">Sketch</span></li>
+				</ul>
+			</section>
+		</div>
+	</div>
+
 </section>
 
 
 
-	
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-		<script src="/static/js/main.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-		<script src="//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
-		<script>
-		  WebFont.load({
-			google: {
-			  families: ['Lato:300,400,700,900']
-			}
-		  });
-		</script>
-	
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
+	<script>
+	  WebFont.load({
+		google: {
+		  families: ['Lato:300,400,700,900', 'Pacifico']
+		}
+	  });
+	</script>
+	<script src="/static/js/main.js"></script>
+
 </body>
 </html>
